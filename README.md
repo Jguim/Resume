@@ -1,5 +1,1 @@
 # Resume
-
-Spanish
-
-English
