@@ -1,0 +1,116 @@
+/*
+Elements:
+    Background, card background, Form input: #16161a
+    Headline, label & placeholder, button text: #fffffe
+    Paragraph: #94a1b2
+    Button, form button: #7f5af0
+    Form button text, : #fffffe
+    Links: #7f5af0
+
+Illustrations:
+    Stroke: #010101
+    Main: #fffffe
+    Highlight: #7f5af0
+    Secondary: #72757e
+    Terciary: #2cb67d
+    background: #242629
+*/
+
+/*****************************TAG SELECTORS ********************************/
+body { 
+    background-color:#242629;
+}
+h1 {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color:#7f5af0;
+    line-height: 50px;
+}
+h2 {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color:#7f5af0;
+    line-height: 50px;
+}
+h3 {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color: #fffffe;
+    line-height: 50px;
+}
+h4 {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color: #fffffe;
+    line-height: 50px;
+}
+hr {
+    border-style: dotted none none;
+    border-color:#94a1b2;
+    border-width: 15px;
+    width: 20%;
+}
+a {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color:#7f5af0;
+}
+p {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#94a1b2
+}
+ul {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#94a1b2
+}
+img { 
+    border-color: #010101;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+/*****************************CLASS SELECTORS ********************************/
+.titleTable {
+    padding: 0px
+
+}
+
+.bodyTable {
+    border-color: #010101;
+    /*color:#94a1b2; */
+    border: 2px solid; 
+    padding: 5px; 
+    border-radius: 3px;
+}
+
+.button {
+    border: none;
+    background-color: #7f5af0;
+    color:  #fffffe;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }  
+
+.animation:hover { /*Use later for swapping images in projects*/
+    background-color: #2cb67d;
+}
+/*****************************ID SELECTORS ********************************/
+
+#headerName {
+    line-height: 80px;
+    font-size: 3em;
+}
